@@ -13,5 +13,6 @@ UCLASS()
 class MYOPENWORLD_API AMyOpenWorldGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
+		AMyOpenWorldGameModeBase();
 };
