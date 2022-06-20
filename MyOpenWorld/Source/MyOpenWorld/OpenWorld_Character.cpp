@@ -63,9 +63,9 @@ void AOpenWorld_Character::Turn(float value)
 
 void AOpenWorld_Character::LookUp(float value)
 {
-	//AddControllerPitchInput(value);
+	AddControllerPitchInput(value);
 	
-	SpringArmComponent->SetRelativeRotation()
+	//SpringArmComponent->SetRelativeRotation()
 }
 
 
