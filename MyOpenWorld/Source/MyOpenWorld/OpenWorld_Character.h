@@ -3,13 +3,23 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Camera/CameraComponent.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/SpringArmComponent.h"
 #include "OpenWorld_Character.generated.h"
 
 UCLASS()
 class MYOPENWORLD_API AOpenWorld_Character : public ACharacter
 {
 	GENERATED_BODY()
+
+
+protected:
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category ="SpringArm")
+		USpringArmComponent * SpringArmComponent;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category ="Camera")
+		UCameraComponent * CameraComponent;
+
 
 public:
 	// Sets default values for this character's properties
@@ -25,5 +35,17 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	UFUNCTION()
+	void MveForward(float value);
+	UFUNCTION()
+	void MoveRight(float value);
+	UFUNCTION()
+	void Interact();
+	UFUNCTION()
+	void Turn(float value);
+	UFUNCTION()
+	void LookUp(float value);
+	
 
 };
