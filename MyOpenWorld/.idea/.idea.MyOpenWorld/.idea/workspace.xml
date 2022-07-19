@@ -5,9 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e3d49d5-b4a1-4302-b07e-17baa3c76c40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/TestLevel.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/TestLevel_BuiltData.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyOpenWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyOpenWorld/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Interaction_objects/Brick/Brick.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Interaction_objects/Brick/mesh/Brick_StaticMesh.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Interaction_objects/Grenade/Blueprint/BP_G68_Grenade.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Interaction_objects/Grenade/Blueprint/BP_MK2_Grenade.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Interaction_objects/Grenade/Material/M_Grenade_Materia.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Interaction_objects/Grenade/Mesh/MK2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Interaction_objects/Grenade/Mesh/SM_G68.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Interaction_objects/Grenade/Mesh/Target_StaticMesh.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Interaction_objects/Grenade/Sound/zvuk-vzryiva-granatyi-haeshka-7843.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Interaction_objects/Grenade/Txture/PBR_MK2_Base_Color.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Interaction_objects/Grenade/Txture/PBR_MK2_Metallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Interaction_objects/Grenade/Txture/PBR_MK2_Normal_DirectX.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/MAIN_CHAR/blueprint/BP_OpenWorld_Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Develop/MAIN_CHAR/blueprint/BP_OpenWorld_Character.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/AA.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/AA.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/AB.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/AB.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/AC.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/AC.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/BA.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/BA.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/BB.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/BB.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/BC.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/BC.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/CA.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/CA.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/CB.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/CB.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/CC.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/CC.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/Main_level.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/Main_level.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Main/UI/Main_Character_Interface/WBP_Main_User_Interface.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/UI/Main_Character_Interface/WBP_Main_User_Interface.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MyOpenWorld/MyOpenWorld.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyOpenWorld/MyOpenWorld.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +55,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -206,6 +231,7 @@
       <workItem from="1655449713673" duration="771000" />
       <workItem from="1655465363321" duration="7638000" />
       <workItem from="1655706870546" duration="243000" />
+      <workItem from="1658240692349" duration="9173000" />
     </task>
     <servers />
   </component>
@@ -217,5 +243,16 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/MyOpenWorld/UInteractionComponent.cpp</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
