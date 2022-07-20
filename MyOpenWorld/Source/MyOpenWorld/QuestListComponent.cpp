@@ -3,14 +3,16 @@
 
 #include "QuestListComponent.h"
 
+#include "CurrentObjectives.h"
 #include "Quest.h"
+#include "Blueprint/UserWidget.h"
 
 // Sets default values for this component's properties
 UQuestListComponent::UQuestListComponent()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
-	PrimaryComponentTick.bCanEverTick = true;
+	PrimaryComponentTick.bCanEverTick = false;
 
 	// ...
 }
@@ -22,6 +24,15 @@ void UQuestListComponent::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
+
+	if (CurrentObjectivesWidgetClass)
+	{
+		UCurrentObjectives* CurrentObjectivesWidget = CreateWidget<UCurrentObjectives>(GetWorld(), CurrentObjectivesWidgetClass);
+		
+		OnActiveQuestChanged.AddUObject(CurrentObjectivesWidget,&UCurrentObjectives::SetCurrentObjectives);
+		
+		CurrentObjectivesWidget->AddToViewport();
+	}
 	
 }
 

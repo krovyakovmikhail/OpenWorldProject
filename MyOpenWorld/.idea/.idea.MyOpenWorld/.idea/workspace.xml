@@ -6,28 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e3d49d5-b4a1-4302-b07e-17baa3c76c40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/MyOpenWorld/CurrentObjectives.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MyOpenWorld/LocationMarker.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MyOpenWorld/LocationMarkerActor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MyOpenWorld/Objective.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/MyOpenWorld/ObjectiveWidget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/MyOpenWorld/QuestDialog.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyOpenWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyOpenWorld/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Architecture/lamppost/BP_LamPost_2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Develop/Architecture/lamppost/BP_LamPost_2.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Architecture/lamppost/Lamppost_2_StaticMesh.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Develop/Architecture/lamppost/Lamppost_2_StaticMesh.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Interactable_Object/BP_InteractableActor_Test.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Develop/Interactable_Object/BP_InteractableActor_Test.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/MAIN_CHAR/blueprint/BP_OpenWorld_Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Develop/MAIN_CHAR/blueprint/BP_OpenWorld_Character.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/AA.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/AA.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/AB.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/AB.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/AC.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/AC.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/BA.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/BA.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/BB.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/BB.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/BC.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/BC.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/CA.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/CA.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/CB.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/CB.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/CC.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/CC.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/Main_level.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/Main_level.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/TestLevels/TestLevels/Test_level.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/TestLevels/TestLevels/Test_level.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MyOpenWorld/UInteractionComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyOpenWorld/UInteractionComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MyOpenWorld/CurrentObjectives.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyOpenWorld/CurrentObjectives.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MyOpenWorld/CurrentObjectives.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyOpenWorld/CurrentObjectives.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MyOpenWorld/Quest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyOpenWorld/Quest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MyOpenWorld/Quest.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyOpenWorld/Quest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MyOpenWorld/QuestListComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyOpenWorld/QuestListComponent.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -442,7 +428,7 @@
       <workItem from="1655706870546" duration="243000" />
       <workItem from="1658240692349" duration="9403000" />
       <workItem from="1658293773697" duration="754000" />
-      <workItem from="1658296137327" duration="22161000" />
+      <workItem from="1658296137327" duration="25650000" />
     </task>
     <servers />
   </component>

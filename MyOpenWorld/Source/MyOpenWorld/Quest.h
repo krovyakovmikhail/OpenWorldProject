@@ -28,6 +28,9 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION(BlueprintPure)
+	const TArray<UObjective*>& GetObjectives() const;
 	
 	UFUNCTION(BlueprintCallable, CallInEditor)
     void UpdateLocation();
