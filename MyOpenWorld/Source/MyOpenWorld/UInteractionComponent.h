@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "Components/SphereComponent.h"
+#include "Components/CapsuleComponent.h"
 
 #include "UInteractionComponent.generated.h"
 
 
 UCLASS( ClassGroup="Collision", meta=(DisplayName = "Interaction Collision", BlueprintSpawnableComponent) )
-class MYOPENWORLD_API UUInteractionComponent : public USphereComponent
+class MYOPENWORLD_API UUInteractionComponent : public UCapsuleComponent
 {
 	GENERATED_BODY()
 
