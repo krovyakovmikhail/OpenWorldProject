@@ -15,9 +15,11 @@ void UCurrentObjectives::SetCurrentObjectives(AQuest* Quest)
 		
 	    for (UObjective* Objective : Quest->GetObjectives())
 	    {
-		    UObjectiveWidget * ObjectiveWidget =
-		    CreateWidget<UObjectiveWidget>(this, ObjectiveWidgetClass);
-		    ObjectiveWidget->Init(Objective);
+	    	
+		    UObjectiveWidget * ObjectiveWidget = CreateWidget<UObjectiveWidget>(this, ObjectiveWidgetClass);
+	    	
+	    	ObjectiveWidget->Init(Objective);
+	    			   
 		    ObjectivesList->AddChildToVerticalBox(ObjectiveWidget);
 	    }
     }

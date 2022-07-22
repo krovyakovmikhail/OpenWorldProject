@@ -7,6 +7,8 @@
 
 #include "ObjectiveWidget.generated.h"
 
+class UTextBlock;
+class UCheckBox;
 class UObjective;
 /**
  * 
@@ -17,6 +19,17 @@ class MYOPENWORLD_API UObjectiveWidget : public UUserWidget
 	GENERATED_BODY()
 
 	public:
+		void Init(UObjective* Objective);
 
-	void Init(UObjective* Objective);
+		void RemoveWidget(); 
+
+
+	
+	protected:
+		UPROPERTY(meta = (BindWidgetOptional))
+		UCheckBox * ComplitionCheck;
+		UPROPERTY(meta = (BindWidgetOptional))
+		UTextBlock * DescriptionText;
+
+	
 };

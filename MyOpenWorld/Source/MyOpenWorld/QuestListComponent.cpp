@@ -47,6 +47,13 @@ void UQuestListComponent::TickComponent(float DeltaTime, ELevelTick TickType, FA
 
 void UQuestListComponent::AddQuest(AQuest* Quest)
 {
+
+	if (ActiveQuest == nullptr || ActiveQuest->IsComleted())
+	{
+		SetActiveQuest(Quest);		
+	}
+	
+	
 	if (Quest)
 	{
 		AcceptedQuests.AddUnique(Quest);
@@ -78,15 +85,15 @@ AQuest* UQuestListComponent::GetActiveQuest() const
 
 void UQuestListComponent::SetActiveQuest(AQuest* Quest)
 {
-	if (AcceptedQuests.Contains(Quest))
-    {
+	//if (AcceptedQuests.Contains(Quest))
+    //{
 	    ActiveQuest = Quest;
 		
 	    if (OnActiveQuestChanged.IsBound())
 	    {
 		 OnActiveQuestChanged.Broadcast(Quest);
 	    }
-    }
+   // }
 
 }
 

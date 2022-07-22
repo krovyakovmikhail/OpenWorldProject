@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
-
+#include "Quest.h"
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "QuestListComponent.generated.h"
@@ -26,14 +26,15 @@ protected:
 	UPROPERTY()
     TArray<AQuest*> AcceptedQuests;
 	
-    UPROPERTY()
-    AQuest* ActiveQuest;
+	UPROPERTY(EditAnywhere)
+	AQuest* ActiveQuest = nullptr;    
 	
     UPROPERTY(EditAnywhere)
     TSubclassOf<UCurrentObjectives> CurrentObjectivesWidgetClass;
 
 
-public:	
+public:
+	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 

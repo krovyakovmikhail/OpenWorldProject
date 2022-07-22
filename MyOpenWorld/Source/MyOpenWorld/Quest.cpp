@@ -3,6 +3,7 @@
 
 #include "Quest.h"
 
+#include "CurrentObjectives.h"
 #include "Objective.h"
 
 // Sets default values
@@ -41,6 +42,16 @@ void AQuest::UpdateLocation()
 	}
 }
 
+FText AQuest::GetName()
+{
+	return Name;
+}
+
+FText AQuest::GetDescription()
+{
+	return  Descrition; 
+}
+
 void AQuest::TakeQuest(AActor* Character)
 {
 	if (bIsTaken)
@@ -54,9 +65,41 @@ void AQuest::TakeQuest(AActor* Character)
 			Objectives[i]->ActivateObjective(Character);
 			Objectives[i]->bCanBeCompleted = !bKeepObjectivesOrder || i == 0;
 			Objectives[i]->OnObjectiveCompleted.AddUObject(this, &AQuest::OnObjectiveCompleted);
+			
 		}
 	}
 	bIsTaken = true;
+}
+
+bool AQuest::IsAlreadyTaken()
+{
+	return bIsTaken;
+}
+
+bool AQuest::IsComleted() const
+{
+
+	
+	if (bKeepObjectivesOrder && Objectives.IsValidIndex((Objectives.Num()-1)))
+	{
+		return Objectives[Objectives.Num()-1]->bIsCompleted;
+	}
+	for (auto* Objective : Objectives)
+	{
+		if (Objective && !Objective->bIsCompleted)
+		{
+			return  false;
+		}
+	}
+	
+	return true;
+	
+	
+}
+
+AQuest* const& AQuest::GetPrerquisedQuest()
+{
+	return PreviousQuest;
 }
 
 void AQuest::OnObjectiveCompleted(UObjective* Objective)
@@ -64,8 +107,7 @@ void AQuest::OnObjectiveCompleted(UObjective* Objective)
 	if (bKeepObjectivesOrder)
     {
 	    int32 ObjectiveIndex;
-	    if (Objectives.Find(Objective, ObjectiveIndex) &&
-	    Objectives.IsValidIndex(ObjectiveIndex + 1))
+	    if (Objectives.Find(Objective, ObjectiveIndex) &&  Objectives.IsValidIndex(ObjectiveIndex + 1))
 	    {
 	    Objectives[ObjectiveIndex + 1]->bCanBeCompleted = true;
 		}

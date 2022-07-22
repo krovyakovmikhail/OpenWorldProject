@@ -45,11 +45,13 @@ void ULocationObjective::ActivateObjective(AActor* Character)
     {
     if (bCanBeCompleted && Character == OverlappedActor)
     {
-    bIsCompleted = true;
-    if (OnObjectiveCompleted.IsBound())
-    {
-    OnObjectiveCompleted.Broadcast(this);
-    }
+	    bIsCompleted = true;
+
+    	   	    		
+	    if (OnObjectiveCompleted.IsBound())
+	    {
+			OnObjectiveCompleted.Broadcast(this);
+	    }
     }
     });
     }

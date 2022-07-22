@@ -34,8 +34,23 @@ public:
 	
 	UFUNCTION(BlueprintCallable, CallInEditor)
     void UpdateLocation();
+
+	UFUNCTION(BlueprintCallable)
+	FText GetName();
+	
+	UFUNCTION(BlueprintCallable)
+	FText GetDescription();
 	
 	void TakeQuest(AActor * Character);
+	
+	UFUNCTION()
+	bool IsAlreadyTaken();
+
+	UFUNCTION()
+	bool IsComleted() const;
+	
+	UFUNCTION()
+	AQuest* const &GetPrerquisedQuest();
 	
 	DECLARE_MULTICAST_DELEGATE_OneParam(FOnQuestStatusUpdated, AQuest*)
 	FOnQuestStatusUpdated OnQuestStatusUpdated;

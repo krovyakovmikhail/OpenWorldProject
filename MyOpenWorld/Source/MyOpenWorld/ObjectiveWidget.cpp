@@ -2,3 +2,29 @@
 
 
 #include "ObjectiveWidget.h"
+
+#include "Objective.h"
+#include "Components/CheckBox.h"
+#include "Components/TextBlock.h"
+
+void UObjectiveWidget::Init(UObjective* Objective)
+{
+	if (Objective)
+    {
+	    if (ComplitionCheck)
+	    {
+		 ComplitionCheck->SetIsChecked(Objective->bIsCompleted);
+	    	
+	    	
+	    }
+		
+	    if (DescriptionText)
+	    {
+		 DescriptionText->SetText(Objective->Descrition);
+	    }
+    }
+
+}
+
+
+

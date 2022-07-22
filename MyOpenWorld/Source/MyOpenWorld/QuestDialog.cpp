@@ -3,6 +3,7 @@
 
 #include "QuestDialog.h"
 
+#include "QuestDescription.h"
 #include "Blueprint/WidgetBlueprintLibrary.h"
 #include "Components/Button.h"
 #include "Kismet/GameplayStatics.h"
@@ -22,4 +23,32 @@ void UQuestDialog::NativeConstruct()
 	APlayerController * PC = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 	UWidgetBlueprintLibrary::SetInputMode_UIOnly(PC);
 	PC->bShowMouseCursor = true;
+}
+
+void UQuestDialog::Init(AQuest* Quest)
+{
+	if (Description)
+	{
+	Description->Init(Quest);
+	}
+}
+
+void UQuestDialog::RejectQuest()
+{
+HideDialog();
+}
+
+void UQuestDialog::AcceptQuest()
+{
+	HideDialog();
+	OnQuestAccepted.ExecuteIfBound();
+}
+
+void UQuestDialog::HideDialog()
+{
+	RemoveFromViewport();
+	APlayerController * PC = UGameplayStatics::GetPlayerController(GetWorld(), 0);
+	UWidgetBlueprintLibrary::SetInputMode_GameOnly(PC);
+	PC->bShowMouseCursor = false;
+	OnQuestQuited.ExecuteIfBound();
 }
