@@ -37,7 +37,7 @@ void AOpenWorld_Character::SetupPlayerInputComponent(UInputComponent* PlayerInpu
 	InputComponent->BindAxis("MoveForward", this, &AOpenWorld_Character::MveForward);
 	InputComponent->BindAxis("MoveRight", this, &AOpenWorld_Character::MoveRight);
 	InputComponent->BindAxis("Turn", this, &AOpenWorld_Character::Turn);
-	InputComponent->BindAxis("LookUp", this, &AOpenWorld_Character::LookUp);
+	InputComponent->BindAxis("LookUpDown", this, &AOpenWorld_Character::LookUp);
 	InputComponent->BindAction("Interact", IE_Pressed, this, &AOpenWorld_Character::Interact);
 
 }
