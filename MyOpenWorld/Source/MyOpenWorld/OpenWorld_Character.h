@@ -20,6 +20,8 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category ="Camera")
 		UCameraComponent * CameraComponent;
 
+		
+
 
 public:
 	// Sets default values for this character's properties
@@ -37,7 +39,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UFUNCTION()
-	void MveForward(float value);
+	void MoveForward(float value);
 	UFUNCTION()
 	void MoveRight(float value);
 	UFUNCTION()
@@ -46,6 +48,8 @@ public:
 	void Turn(float value);
 	UFUNCTION()
 	void LookUp(float value);
+	//UFUNCTION()
+    //void Jump();
 	
 
 };

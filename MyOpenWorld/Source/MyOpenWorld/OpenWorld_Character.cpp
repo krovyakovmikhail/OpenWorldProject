@@ -3,6 +3,9 @@
 
 #include "OpenWorld_Character.h"
 
+#include "StaticMeshAttributes.h"
+#include "GameFramework/CharacterMovementComponent.h"
+
 // Sets default values
 AOpenWorld_Character::AOpenWorld_Character()
 {
@@ -34,17 +37,22 @@ void AOpenWorld_Character::Tick(float DeltaTime)
 void AOpenWorld_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-	InputComponent->BindAxis("MoveForward", this, &AOpenWorld_Character::MveForward);
+	InputComponent->BindAxis("MoveForward", this, &AOpenWorld_Character::MoveForward);
 	InputComponent->BindAxis("MoveRight", this, &AOpenWorld_Character::MoveRight);
 	InputComponent->BindAxis("Turn", this, &AOpenWorld_Character::Turn);
 	InputComponent->BindAxis("LookUpDown", this, &AOpenWorld_Character::LookUp);
 	InputComponent->BindAction("Interact", IE_Pressed, this, &AOpenWorld_Character::Interact);
+	InputComponent->BindAction("Jump", IE_Pressed, this, &AOpenWorld_Character::Jump);
 
 }
 
-void AOpenWorld_Character::MveForward(float value)
+void AOpenWorld_Character::MoveForward(float value)
 {
+	
 	AddMovementInput(GetActorForwardVector(), value);
+	
+	
+	
 }
 
 void AOpenWorld_Character::MoveRight(float value)
@@ -67,5 +75,10 @@ void AOpenWorld_Character::LookUp(float value)
 	
 	//SpringArmComponent->SetRelativeRotation()
 }
+
+/*void AOpenWorld_Character::Jump()
+{
+	Jump();
+}*/
 
 
