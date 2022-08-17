@@ -53,7 +53,9 @@ class MYOPENWORLD_API UInteractionObjective : public UObjective
 
 		void ActivateObjective(AActor * Character) override;
 		
-		UPROPERTY(EditAnywhere, meta = (AllowedClasses = "InteractableObject"))
+		//UPROPERTY(, meta = (AllowedClasses = "AInteractableActor")EditAnywhere)
+		//AActor* Target;
+		UPROPERTY(EditAnywhere)
 		AActor* Target;
 	
 };
