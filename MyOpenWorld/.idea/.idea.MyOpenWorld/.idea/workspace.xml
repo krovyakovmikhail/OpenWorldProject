@@ -5,26 +5,7 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e3d49d5-b4a1-4302-b07e-17baa3c76c40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyOpenWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyOpenWorld/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/MAIN_CHAR/Animations/with_rifle/ch23_Locomotion_with_rifle.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Develop/MAIN_CHAR/Animations/with_rifle/ch23_Locomotion_with_rifle.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/MAIN_CHAR/blueprint/BP_OpenWorld_Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Develop/MAIN_CHAR/blueprint/BP_OpenWorld_Character.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Develop/Mini_game/BP_MiniGame.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Develop/Mini_game/BP_MiniGame.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/AA.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/AA.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/AB.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/AB.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/AC.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/AC.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/BA.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/BA.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/BA_BuiltData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/BA_BuiltData.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/BB.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/BB.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/BC.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/BC.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/CA.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/CA.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/CB.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/CB.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/CC.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/CC.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/Main_level.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/Main_level.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Main/Levels/Main_level_BuiltData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Main/Levels/Main_level_BuiltData.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MyOpenWorld/OpenWorld_Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyOpenWorld/OpenWorld_Character.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MyOpenWorld/OpenWorld_Character.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MyOpenWorld/OpenWorld_Character.h" afterDir="false" />
-    </list>
+    <list default="true" id="2e3d49d5-b4a1-4302-b07e-17baa3c76c40" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +24,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Source/MyOpenWorld/InteractableActor.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/MyOpenWorld/UInteractionComponent.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_4.27/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/MyOpenWorld/InteractableObject_Interface.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/MyOpenWorld/UInteractionComponent.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ah5idOJldko4M5T4MumU2rn2nj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,15 +36,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="C++ Project.MyOpenWorld">
     <configuration name="MyOpenWorld" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -214,6 +196,16 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
       </configuration_15>
+      <configuration_16>
+        <option name="CONFIGURATION" value="" />
+        <option name="PLATFORM" value="" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/MyOpenWorld.vcxproj" />
+        <option name="EXE_PATH" value="$(TargetPath)" />
+        <option name="PROGRAM_PARAMETERS" value="" />
+        <option name="WORKING_DIRECTORY" value="$(ProjectDir)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_16>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/MyOpenWorld.vcxproj" />
       <method v="2">
         <option name="Build" />
@@ -446,6 +438,7 @@
       <workItem from="1660233445026" duration="765000" />
       <workItem from="1660241797292" duration="385000" />
       <workItem from="1660277834684" duration="2253000" />
+      <workItem from="1662134713486" duration="2438000" />
     </task>
     <servers />
   </component>
@@ -465,7 +458,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
